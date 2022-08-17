@@ -29,7 +29,7 @@
 - README.md
 - scorer.py
 
-## Instructions
+## Execution
 
 Please use the following commands to run the code.
 
