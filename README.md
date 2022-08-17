@@ -10,6 +10,7 @@
 - To view our presentation, please check the [project website](https://www.zeyongjin.net/post/project-003-nlp-prompt-based-text-matching-methods-for-fake-news-stance-detection), the slides `presentation.pdf` are also available in this repo.
 - The professor is Dr. Angel Chang.
 - The group members are Zeyong Jin (zeyongj@sfu.ca), Yuqing Wu (ywa292@sfu.ca) and Zhi Feng (zhif@sfu.ca).
+- The icon of this team AWSL is <img src="https://emojipedia-us.s3.amazonaws.com/content/2021/06/11/emojipedia-g4-awsl.png" height="30" width="30">.
 
 ## Contents
 
