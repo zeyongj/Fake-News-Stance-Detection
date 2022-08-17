@@ -12,7 +12,7 @@
 
 ## Introduction
 
-- This is the source folder of team AWSL's final project of CMPT 413/713: Natural Language Processing.
+- This is the output folder of team AWSL's final project of CMPT 413/713: Natural Language Processing.
 - The team AWSL consists of the following students.
     - Zeyong Jin, zeyongj@sfu.ca
     - Zhi Feng, zhif@sfu.ca
@@ -20,18 +20,24 @@
 - The icon of this team is <img src="https://emojipedia-us.s3.amazonaws.com/content/2021/06/11/emojipedia-g4-awsl.png" height="30" width="30">.
 
 ## Contents
+- BernoulliNB_with_CountVectorizer.csv
+- BernoulliNB_with_TfidfVectorizer.csv
+- BERT.csv
+- competition_test_stances.csv
+- LogisticRegression_with_CountVectorizer.csv
+- LogisticRegression_with_TfidfVectorizer.csv
 - README.md
-- README.ywa292
-- README.zeyongj
-- README.zhif
-- project.ipynb
-- requirements.txt
+- scorer.py
 
 ## Instructions
 
-- Please make sure that your machine satisfies all the requirements placed on the file of requirements.txt before execution.
-- The execution may take very long time.
-- To reduce the running time, we provide Training Arguments to perform Fine-Tuning very efficiently. Otherwise, the program would start traning from zero. The folders of Training Arguments have been shared publicly, and you can check https://drive.google.com/drive/folders/1ob2sOylDDjMjt-XQ41aOPqxA-aEfoLN5?usp=sharing and https://drive.google.com/drive/folders/1Wuh5J8NM9LEg5ZjmCK3LAf1rwAo_PwA-?usp=sharing for details.
+Please use the following commands to run the code.
+
+- `python.exe scorer.py competition_test_stances.csv BERT.csv`
+- `python.exe scorer.py competition_test_stances.csv LogisticRegression_with_CountVectorizer.csv`
+- `python.exe scorer.py competition_test_stances.csv LogisticRegression_with_TfidfVectorizer.csv`
+- `python.exe scorer.py competition_test_stances.csv BernoulliNB_with_CountVectorizer.csv`
+- `python.exe scorer.py competition_test_stances.csv BernoulliNB_with_TfidfVectorizer.csv`
 
 ## Epilogue
 
